@@ -12,6 +12,7 @@ import java.util.ArrayList;
 
 @Component
 public class CustomUserDetailsService implements UserDetailsService {
+
     @Autowired
     private UserRepository repository;
 
